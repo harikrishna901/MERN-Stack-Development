@@ -1,0 +1,347 @@
+/* ================= FOOTER ================= */
+
+/* ================= FOOTER ================= */
+
+.footer {
+    padding: 90px 8% 30px;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    overflow: hidden;
+}
+
+body.light .footer {
+    background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+    color: #111;
+}
+
+/* ================= GRID ================= */
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+/* ================= LOGO ================= */
+
+.footer-logo {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.footer-logo span {
+    color: #f97316;
+}
+
+/* ================= TEXT ================= */
+
+.footer-col h3 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.footer-col p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    opacity: 0.85;
+}
+
+/* ================= LINKS ================= */
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+}
+
+.footer-col ul li:hover,
+.footer-col ul li a:hover {
+    color: #f97316;
+    transform: translateX(6px);
+}
+
+/* ================= SOCIAL ICONS ================= */
+
+.social-icons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-item {
+    position: relative;
+}
+
+.social-icons a {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    transition: all 0.4s ease;
+    color: white;
+}
+
+body.light .social-icons a {
+    background: rgba(0,0,0,0.05);
+    color: #111;
+}
+
+.social-icons a:hover {
+    transform: translateY(-6px) scale(1.1);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+}
+
+.facebook:hover { background: #1877f2; color: white; }
+.linkedin:hover { background: #0077b5; color: white; }
+.instagram:hover {
+    background: linear-gradient(45deg,#f58529,#dd2a7b,#8134af,#515bd4);
+    color: white;
+}
+.twitter:hover { background: #1da1f2; color: white; }
+
+/* ================= TOOLTIP ================= */
+
+.tooltip {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: rgba(0,0,0,0.85);
+    color: white;
+    padding: 6px 14px;
+    font-size: 12px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.3s ease;
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.85) transparent transparent transparent;
+}
+
+.social-item:hover .tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+/* ================= PREMIUM NEWSLETTER ================= */
+
+.newsletter {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 24px;
+    padding: 6px;
+    border-radius: 80px;
+
+    /* glass effect */
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    box-shadow:
+            0 15px 40px rgba(0, 0, 0, 0.25),
+            0 0 20px rgba(255, 140, 0, 0.2);
+}
+
+/* Gradient Glow Border */
+.newsletter::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: 80px;
+    background: linear-gradient(90deg, #f97316, #0ea5e9, #f97316);
+    z-index: -1;
+    filter: blur(12px);
+    opacity: 0.6;
+}
+
+/* ================= INPUT ================= */
+
+.newsletter input {
+    flex: 1;
+    height: 56px;
+    padding: 0 24px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 60px;
+    background: transparent;
+}
+
+.newsletter input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* ================= PREMIUM BUTTON ================= */
+
+.subscribe-btn {
+    position: relative;
+    min-width: 170px;
+    height: 56px;
+    padding: 0 30px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+
+    background: linear-gradient(135deg, #f97316, #ea580c);
+
+    transition: all 0.35s ease;
+    overflow: hidden;
+}
+
+/* Hover lift */
+.subscribe-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(249, 115, 22, 0.4);
+}
+
+/* Shine animation */
+.subscribe-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+            120deg,
+            transparent,
+            rgba(255, 255, 255, 0.5),
+            transparent
+    );
+    transition: 0.6s;
+}
+
+.subscribe-btn:hover::after {
+    left: 100%;
+}
+/* ================= RESPONSIVE PREMIUM NEWSLETTER ================= */
+
+@media (max-width: 992px) {
+
+    .newsletter {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .newsletter {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    .newsletter::before {
+        border-radius: 30px;
+    }
+
+    .newsletter input {
+        width: 100%;
+        height: 50px;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .subscribe-btn {
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+        border-radius: 30px;
+        min-width: unset;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .newsletter {
+        padding: 8px;
+    }
+
+    .newsletter input {
+        font-size: 14px;
+        height: 46px;
+    }
+
+    .subscribe-btn {
+        height: 46px;
+        font-size: 14px;
+    }
+}
+/* ================= STATUS COLORS ================= */
+
+.subscribe-btn.success {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+.subscribe-btn.exists {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+}
+
+.subscribe-btn.invalid {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+
+.subscribe-btn:disabled {
+    opacity: 0.85;
+    cursor: not-allowed;
+}
+
+/* Check icon animation */
+.check-icon {
+    margin-right: 8px;
+    animation: pop 0.4s ease;
+}
+
+@keyframes pop {
+    0% { transform: scale(0.5); opacity: 0; }
+    70% { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(1); }
+}
+
+/* Error message */
+.subscribe-message {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.subscribe-message.error {
+    color: #f87171;
+}
+
+

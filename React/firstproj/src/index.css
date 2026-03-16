@@ -1,0 +1,15 @@
+body{
+    background:linear-gradient(150deg,yellow,red,green)
+}
+.digitalclockapp{
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    margin: 300px;
+    padding:40px;
+    color:white;
+    background:linear-gradient(150deg,blue,purple);
+    border:none;
+    border-radius: 10px;
+}

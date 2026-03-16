@@ -1,0 +1,74 @@
+/* ========================= */
+/* SECTION BACKGROUND */
+/* ========================= */
+
+.portfolio-section {
+    padding: 140px 8%;
+    text-align: center;
+    background: linear-gradient(135deg, #ffffff, #f1f5f9);
+    color: #0f172a;
+}
+/* TITLE */
+.section-title {
+    font-size: 2.6rem;
+    margin-bottom: 70px;
+}
+
+/* GRID */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+}
+
+/* CARD */
+.portfolio-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* IMAGE */
+.portfolio-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+/* HOVER ZOOM */
+.portfolio-card:hover img {
+    transform: scale(1.1);
+}
+
+/* OVERLAY */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.2)
+    );
+    display: flex;
+    align-items: flex-end;
+    padding: 25px;
+    opacity: 0;
+    transition: 0.4s ease;
+}
+
+.portfolio-card:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h3 {
+    color: white;
+    font-size: 18px;
+}
+body.dark .portfolio-section {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}

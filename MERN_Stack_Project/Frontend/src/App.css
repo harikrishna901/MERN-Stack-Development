@@ -1,0 +1,20 @@
+/* App-level styles (applied to all pages) */
+
+/* Smooth scroll for anchor links */
+/* App-level layout wrapper */
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background: #f59e0b;
+    z-index: 2000;
+}
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    padding-top: 90px;
+}

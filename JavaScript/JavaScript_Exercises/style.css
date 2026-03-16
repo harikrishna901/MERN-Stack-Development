@@ -1,0 +1,18 @@
+#box{
+    background-color: aquamarine;
+    font-size: xx-large;
+    text-align: center;
+    height:200px;
+    width:200px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+}
+#mybtn{
+    font-size: 1.5rem;
+    border:None;
+    background-color: black;
+    color:white;
+    border-radius: 50%;
+}

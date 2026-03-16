@@ -1,0 +1,25 @@
+[{
+    "question":"1. What has a face and two hands, but no arms or legs?",
+    "options":["A) Statue","B) clock","C) teddy bear","D) person"],
+    "answer":"B) clock"
+},
+{
+    "question":"2. What five-letter word becomes shorter when you add two letters to it?",
+    "options":["A) Small","B) Tiny","C) Short","D) Long"],
+    "answer":"A) Small"
+},
+{
+    "question":"3. Which animal is known as the 'King of the Jungle'?",
+    "options":["A) Tiger","B) Elephant","C) Lion","D) Bear"],
+    "answer":"C) Lion"
+},
+{
+    "question":"4. What is seen in the middle of March and April?",
+    "options":["A) letter 'C'","B) letter 'R'","C) letter 'D'","D) letter 'A'"],
+    "answer":"B) letter 'R'"
+},
+{
+    "question":"5. What has to be broken before you can use it?",
+    "options":["A) promise","B) secret","C) egg","D) toy"],
+    "answer":"C) egg"
+}]

@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:black;
+}
+#startquiz{
+     font-size: large;
+    padding:10px 20px;
+    border:none;
+    border-radius: 15px;
+     color:white;
+     background: linear-gradient(10deg,purple,pink);
+
+}
+#intro{
+    width: 360px;
+    padding: 30px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #1e293b, #334155);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #f8fafc;
+
+}
+.options button{
+    display:block;
+    padding:10px 0px;
+    padding-right: 90%;
+    padding-left: 1cap;
+    background-color: white;
+    margin-bottom: 2%;
+    border:none;
+
+}
+#quizbox{
+    width: 460px;
+    padding: 30px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #1e293b, #334155);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #f8fafc;
+
+}
+.btns{
+    display: block;
+    width:100%;
+    text-align: left;
+    padding:10px;
+    margin:15px 0px;
+    border-radius: 4px;
+    border:none;
+}
+.btns:hover{
+    background-color: rgb(46, 45, 45);
+    color:white;
+}
+.butt:disabled{
+    cursor: not-allowed;
+    color:white;
+}
+#nextbtn{
+    font-size: large;
+    padding:10px 20px;
+    border:none;
+    margin-left: 80%;
+    border-radius: 15px;
+     color:white;
+     background: linear-gradient(10deg,purple,pink);
+}
+.loading{
+    padding:50px;
+    padding-bottom: 120px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.play{
+    font-size: large;
+    padding:10px 20px;
+    border:none;
+    text-align: center;
+    margin-left: 35%;
+    display:block;
+    border-radius: 15px;
+     color:white;
+     background: linear-gradient(10deg,purple,pink);
+}
+.finished{
+    padding-left: 10px;
+}
+.score{
+    font-size: larger;
+    padding-left: 10px;
+}
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #e2e8f0;
+}

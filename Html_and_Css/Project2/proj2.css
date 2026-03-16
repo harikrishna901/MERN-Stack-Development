@@ -1,0 +1,130 @@
+body{
+    background-image: url(pro2image.jpg);
+    background-size: cover;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    margin:25px 100px;
+}
+.left{
+    color:hsla(36, 100%, 50%, 0.729);
+    font-weight:bolder;
+    font-size: 30px;
+}
+.middle{
+    padding-top: 10px;
+    width:700px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+}
+.middle > a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.middle > a:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+.right{
+    padding-top:6px;
+    display:flex;
+    justify-content: center;
+}
+.right > input{
+    background:transparent;
+    border:thin;
+    border-left:thin;
+    border-right:0px;
+    border-style: solid;
+    border-color: hsla(36, 45%, 45%, 0.678);
+    border-radius:5px;
+    padding:7px;
+    color:white;
+    outline:none;
+    -webkit-text-fill-color: rgb(240, 255, 255);
+}
+.right > button{
+    background-color:rgb(224, 129, 6);
+    color:white;
+    padding:8px;
+    padding-left: 10px;
+    padding-right:10px;
+    border:none;
+    font-weight: bold;
+}
+.bodypart{
+    margin:0 100px;
+    margin-top:150px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.midleft{
+    color:white;
+
+}
+.midleft > button{
+    background-color:hsla(36, 100%, 50%, 0.729);
+    border:none;
+    padding:10px 30px;
+    border-radius:10px;
+}
+.size{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 2px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.midright{
+    background-color: black;
+    width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:35px;
+    display:flex;
+    flex-direction: column;
+    border-radius:15px;
+
+}
+.midright >button{
+    background-color: azure;
+    padding:10px 40px;
+    color:hsla(36, 100%, 50%, 0.729);
+    font-weight:bold;
+    border-radius:9px;
+    border:none;
+
+}
+.midright > button:hover{
+    cursor:pointer;
+    background-color:hsla(36, 94%, 26%, 0.729);;
+}
+.midright > input{
+    -webkit-text-fill-color: rgb(240, 255, 255);
+    background: transparent;
+    border-bottom-color:hsla(36, 100%, 50%, 0.729);
+    border-right:none;
+    border-top:none;
+    border-left:none;
+    outline:none;
+    margin-top:35px;
+
+}
+.midright > p{
+    color:white;
+    margin-bottom:-5px;
+    text-align: center;
+}
+.midright > a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    text-decoration-color:hsla(36, 100%, 50%, 0.729);
+}

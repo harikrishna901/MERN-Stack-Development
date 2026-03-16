@@ -1,0 +1,21 @@
+body{
+    display:grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.redtext{
+    color:red;
+    font-size: 34px;
+    font-weight: bold;
+}
+.greentext{
+    color:greenyellow;
+    font-size: 34px;
+    font-weight: bold;
+}
+.blacktext{
+    color:black;
+    font-size: 34px;
+    font-weight: bold;
+}

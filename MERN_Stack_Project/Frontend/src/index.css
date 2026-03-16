@@ -1,0 +1,92 @@
+/* Reset default browser styles */
+body {
+    transition: background 0.4s ease, color 0.4s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: white;
+    color: #1e293b;
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+    background: #0f172a;
+    color: #f8fafc;
+}
+
+.card {
+    background: white;
+    padding: 28px;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+body.dark .card {
+    background: #1e293b;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+.card{
+    transition:0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,0.12);
+}
+
+button, .btn{
+    transition:0.3s ease;
+}
+
+button:hover, .btn:hover{
+    transform:scale(1.05);
+}
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.fade-in {
+    animation: fadeInUp 0.7s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.section {
+    padding-top: 140px;
+}
+
+
+

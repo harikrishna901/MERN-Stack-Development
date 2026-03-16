@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "product_name": "iPhone 15",
+      "company": "Apple",
+      "featured": true,
+      "price": 999
+    },
+    {
+      "product_name": "Galaxy S24",
+      "company": "Samsung",
+      "featured": true,
+      "price": 899
+    },
+    {
+      "product_name": "Pixel 8",
+      "company": "Google",
+      "featured": false,
+      "price": 699
+    },
+    {
+      "product_name": "Xperia 1 V",
+      "company": "Sony",
+      "featured": false,
+      "price": 1199
+    },
+    {
+      "product_name": "OnePlus 12",
+      "company": "OnePlus",
+      "featured": true,
+      "price": 799
+    },
+    {
+      "product_name": "ThinkPad X1 Carbon",
+      "company": "Lenovo",
+      "featured": true,
+      "price": 1499
+    },
+    {
+      "product_name": "MacBook Air M3",
+      "company": "Apple",
+      "featured": true,
+      "price": 1299
+    },
+    {
+      "product_name": "Surface Laptop 6",
+      "company": "Microsoft",
+      "featured": false,
+      "price": 1399
+    },
+    {
+      "product_name": "ROG Strix G16",
+      "company": "ASUS",
+      "featured": false,
+      "price": 1599
+    },
+    {
+      "product_name": "Inspiron 15",
+      "company": "Dell",
+      "featured": false,
+      "price": 749
+    }
+  ]
+}

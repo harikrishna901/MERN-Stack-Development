@@ -1,0 +1,54 @@
+.box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.contain{
+    background-color:  #1F2933;
+    color:white;
+    border-radius: 3%;
+    display:flex;
+    flex-direction:row;
+    width:600px;
+    height:auto-fit;
+}
+.pelements{
+    font-size:20px;
+    font-weight: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mybtn{
+    color:white;
+    padding:10px;
+    border-radius: 5%;
+    background-color: rgb(64, 205, 244);
+    font-size: large;
+    border:none;
+    margin-left:-5px;
+}
+#mytext{
+    padding:10px;
+    border-style:solid;
+    width:max-content;
+    border-right:none;
+    background-color: white;
+    
+}
+.input{
+    text-align: center;
+    margin-bottom:1rem;
+}
+.myimg{
+    width:300px;
+    border-radius: 5%;
+    height:auto;
+    margin-left: 100px;
+}
+.loadingdatacss{
+    text-align: center;
+    color:white;
+    padding:20px 150px;
+    background-color: #1F2933;
+}
